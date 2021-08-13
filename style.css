@@ -1,0 +1,167 @@
+.three-boxes{
+     display: flex;
+     
+     
+ 
+ }
+ .car-icon1{
+     
+     padding: 30px 0 30px 0;
+     
+ }
+ .car-icon2{
+     
+     padding: 30px 0 30px 0;
+     
+     
+ }
+ .car-icon3{
+     
+     padding: 30px 0 30px 0;
+     
+ }
+ .header1{
+     font-family: Lexend Deca;
+     font-size: 25px;
+     color: white;
+     padding: 0 0 10px 0;
+     font-weight: 400;
+     
+ }
+ .header2{
+     font-family: Lexend Deca;
+     font-size: 25px;
+     color: white;
+     padding: 0 0 10px 0;
+     
+ }
+ .header3{
+     font-family: Lexend Deca;
+     font-size: 25px;
+     color: white;
+     padding: 0 0 10px 0;
+     
+ }
+ .paragraph-1{
+     font-family: Lexend Deca;
+     font-size: 16px;
+     color: white;
+     list-style: none;
+     text-align: left;
+     line-height: 20px;
+     padding-bottom: 50px;
+     
+ }
+ .paragraph-2{
+     font-family: Lexend Deca;
+     font-size: 16px;
+     color: white;
+     list-style: none;
+     text-align: left;
+     line-height: 20px;
+     padding-bottom: 50px;
+     
+ }
+ .paragraph-3{
+     font-family: Lexend Deca;
+     font-size: 16px;
+     color: white;
+     list-style: none;
+     text-align: left;
+     line-height: 20px;
+     padding-bottom: 50px;
+     
+     
+ }
+ .box-1{
+     
+     text-align: left;
+     padding: 0 30px 0 30px;
+     background-color: rgb(222, 119, 16);
+     height: 400px;
+ }
+ 
+ .box-2{
+     
+     text-align: left;
+     padding: 0 30px 0 30px;
+     background-color: rgb(40, 138, 126);
+     height: 400px;
+
+ 
+ }
+ .box-3{
+     
+     text-align: left;
+     padding: 0 30px 0 30px;
+     background-color: rgb(21, 74, 68);
+     height: 400px;
+     
+
+ }
+
+ .button-1{
+     
+     padding: 1em;
+     width:100px;
+     border-radius: 100px;
+     background-color: white;
+     color: rgb(222, 119, 16);
+     text-align: center;
+     font-family: Lexend Deca;
+     font-size: 17px;
+     text-decoration: none;
+ }
+ .button-1:hover{
+     background-color: rgb(222, 119, 16);
+     color: white;
+     border: 1px white solid;
+ }
+ .button-2{
+    
+    padding: 1em;
+    width: 100px;
+    border-radius: 100px;
+    background-color: white;
+    color: rgb(40, 138, 126);
+    margin: 50px 0 100px 0;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 17px;
+    text-decoration: none;
+
+ }
+ .button-2:hover{
+     background-color: rgb(40, 138, 126);
+     color: white;
+     border: 1px white solid;
+ }
+ .button-3{
+     
+     padding: 1em;
+     width: 100px;
+     border-radius: 100px;
+     background-color: white;
+     color: rgb(21, 74, 68);
+     margin: 50px 0 50px 0;
+     text-align: center;
+     font-family: Lexend Deca;
+     font-size: 17px;
+    text-decoration: none;
+
+ }
+ .button-3:hover{
+     background-color: rgb(21, 74, 68);
+     color: white;
+     border: 1px white solid;
+
+
+ }
+
+ @media (max-width: 755px){
+    .three-boxes{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+ }
